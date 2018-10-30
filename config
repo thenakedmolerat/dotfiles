@@ -40,8 +40,10 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+q kill
 #
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
-#
+#bindsym $mod+d exec dmenu_run
+#bindsym $mod+d exec rofi -dmenu
+bindsym $mod+d exec rofi -show run
+
 # There also is the (new) i3-dmenu-desktop which only displays applications shipping a .desktop file. It is a wrapper around dmenu, so you 
 # need that installed. bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 #
@@ -127,6 +129,8 @@ bindsym $mod+0 workspace $ws10
 
 #app openings on startup
 #exec google-chrome
+exec_always compton -cCGfF -b -i 0.75 --vsync opengl
+
 
 #command executions on startup
 #exec_always feh --bg-scale /home/rufus/Pictures/wallpaper/
