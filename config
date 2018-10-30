@@ -133,7 +133,7 @@ exec_always compton -cCGfF -b -i 0.75 --vsync opengl
 
 
 #command executions on startup
-#exec_always feh --bg-scale /home/rufus/Pictures/wallpaper/
+#exec_always feh --bg-scale /home/rufus/Pictures/wallpapers/
 exec_always feh --bg-fill Pictures/wallpapers/tumblr_nmr5n7LKXM1sm5cgbo1_1280.jpg 
 
 #custom bindsym for apps
