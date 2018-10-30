@@ -122,7 +122,7 @@ bindsym $mod+9 workspace $ws9
 bindsym $mod+0 workspace $ws10
 #assingments
 #assign [class="Google-chrome"] $workspace2
-assgn [class="Google-chrome"] $ws2
+#assign [class="Google-chrome"] $ws2
 #assign [class="i3-frame"] $workspace1
 
 #app openings on startup
@@ -132,6 +132,9 @@ assgn [class="Google-chrome"] $ws2
 #exec_always feh --bg-scale /home/rufus/Pictures/wallpaper/
 exec_always feh --bg-fill Pictures/wallpapers/tumblr_nmr5n7LKXM1sm5cgbo1_1280.jpg 
 
+#custom bindsym for apps
+bindsym $mod+n exec nautilus
+bindsym $mod+b exec google-chrome
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $ws1 
