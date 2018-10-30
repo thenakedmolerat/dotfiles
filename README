@@ -1,0 +1,12 @@
+#dotfiles 
+#This file is a default readme for the dotfiles 
+#repository for thenakedmolerat
+
+#These dotfiles will be default configuration files for #thenakedmolerat's i3wm software and ricing.
+#This includes gtk2 & 3 and the i3wm config file by default so far.
+
+
+#soon to come will be rofi config files and cursor themes with
+#theme themes and icon themes that i have used throughout my
+#system. some of which will also have screengrabs of settings
+#and some configurations that are not included in config files.
